@@ -875,7 +875,7 @@ footer{background-color:#0a192f;color:#ffffff;padding:clamp(2rem,4vw,3rem) clamp
         <div class="approach-label">✓ NeuroDefend Approach</div>
         <div class="approach-text">
           ML performs primary classification<br/>
-          PLLM performs the actual attack detection via Binary Tree prompts<br/>
+          PLLM performs the actual attack detection via Classification prompts<br/>
           Both layers work together at detection time
         </div>
       </div>
@@ -885,7 +885,7 @@ footer{background-color:#0a192f;color:#ffffff;padding:clamp(2rem,4vw,3rem) clamp
       <div class="reason-card teal-top">
         <div class="reason-icon">☁️</div>
         <div class="reason-name">Cloud Hosts the Full Detection Pipeline</div>
-        <div class="reason-desc">IoT devices cannot run ML models or an LLM locally. The <span class="ht">entire ML + PLLM pipeline runs on the cloud VPS</span>, keeping the hub lightweight while delivering enterprise-grade detection power.</div>
+        <div class="reason-desc">IoT devices cannot run ML models or an PLLM locally. The <span class="ht">entire ML + PLLM pipeline runs on the cloud VPS</span>, keeping the hub lightweight while delivering enterprise-grade detection power.</div>
       </div>
       <div class="reason-card red-top">
         <div class="reason-icon">🧠</div>
@@ -900,7 +900,7 @@ footer{background-color:#0a192f;color:#ffffff;padding:clamp(2rem,4vw,3rem) clamp
       <div class="reason-card red-top">
         <div class="reason-icon">🔍</div>
         <div class="reason-name">PLLM Catches What ML Cannot</div>
-        <div class="reason-desc">ML models are limited to patterns they were trained on. The PLLM's <span class="ht">contextual reasoning ability</span> enables detection of <span class="hr">novel, zero-day, and ambiguous attack patterns</span> that fall outside any training dataset.</div>
+        <div class="reason-desc">ML models are limited to patterns they were trained on. The PLLM's <span class="ht">contextual reasoning ability</span> enables detection of <span class="hr">novel and ambiguous attack patterns</span> that fall outside any training dataset.</div>
       </div>
       <div class="reason-card teal-top">
         <div class="reason-icon">⚡</div>
@@ -910,12 +910,12 @@ footer{background-color:#0a192f;color:#ffffff;padding:clamp(2rem,4vw,3rem) clamp
       <div class="reason-card red-top">
         <div class="reason-icon">🔄</div>
         <div class="reason-name">Always Up-to-date via Cloud Updates</div>
-        <div class="reason-desc">Cloud deployment means both the ML model and PLLM prompts can be <span class="ht">updated silently as new threats emerge</span> - no firmware flash, no user action, no downtime on the protected network.</div>
+        <div class="reason-desc">Cloud deployment allows Hybrid IoT attack detection system to be <span class="ht">updated silently as new threats emerge</span> - no firmware flash, no user action, no downtime on the protected network.</div>
       </div>
     </div>
 
     <div class="callout-bar">
-      <p>NeuroDefend's key innovation: the PLLM is not a post-processing explainer - it is a <strong>first-class detection engine</strong>, directed by Binary Tree prompts engineered specifically to classify IoT network traffic in real time.</p>
+      <p>NeuroDefend's key innovation: the PLLM is not a post-processing explainer - it is a <strong>first-class detection engine</strong>, directed by Decision Tree prompts engineered specifically to classify IoT network traffic in real time.</p>
       <div class="callout-chip">
         <span class="callout-chip-icon">🧠</span>
         <div>
@@ -1327,4 +1327,5 @@ const obs = new IntersectionObserver(entries => {
 document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
 </script>
 </body>
+
 </html>
